@@ -14,12 +14,15 @@ int SearchInRotatedSortedArray(std::vector<int>& nums, int target)
 			++i;
 		}
 		idx = i + 1;
+		// Разворачиваем массив
 		std::rotate(nums.begin(), nums.begin() + idx, nums.end());
 	}
+	// Бинарный поиск
 	while (left <= right)
 	{
 		int mid = left + (right - left) / 2;
 		if (nums[mid] == target)
+			// Переводим индекс обратно в индекс исходного массива делением с целочисленным остатком
 			return (mid + idx) % n;
 		else if (nums[mid] < target)
 			left = mid + 1;
