@@ -4,12 +4,12 @@
 
 ## Мой LeetCode
 
-Профиль: [LeetCode]((https://leetcode.com/u/zaslavskii_is/).
+Профиль: [LeetCode](https://leetcode.com/u/zaslavskii_is/).
 
 ## Задачи
 
 | # | Задача | Сложность |
-|---|--------|
+|---|--------|-----------|
 | 1 | [RemoveDuplicateLetters](./RemoveDuplicateLetters/) | Medium |
 | 2 | [RotateImage](./RotateImage/) | Medium |
 | 3 | [SearchInRotatedSortedArray](./SearchInRotatedSortedArray/) | Medium |
